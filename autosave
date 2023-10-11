@@ -1,0 +1,141 @@
+;; -*- mode: emacs-lisp; eval: (progn (pp-buffer) (indent-buffer)) -*-
+((def-persp "main"
+   ((def-buffer "packages.el" "c:/Users/dgc/AppData/Roaming/.doom.d/packages.el" emacs-lisp-mode)
+    (def-buffer "setup.org" "c:/Library/general/setup.org" org-mode)
+    (def-buffer "note.org" "c:/Library/general/note.org" org-mode)
+    (def-buffer "test.py" "c:/Library/workspaces/tmp/test.py" python-mode)
+    (def-buffer "config.el" "c:/Users/dgc/AppData/Roaming/.doom.d/config.el" emacs-lisp-mode)
+    (def-buffer "custom.el" "c:/Users/dgc/AppData/Roaming/.doom.d/custom.el" emacs-lisp-mode))
+   (def-wconf
+     (((min-height . 4)
+       (min-width . 82)
+       (min-height-ignore . 3)
+       (min-width-ignore . 82)
+       (min-height-safe . 1)
+       (min-width-safe . 2)
+       (min-pixel-height . 64)
+       (min-pixel-width . 656)
+       (min-pixel-height-ignore . 48)
+       (min-pixel-width-ignore . 656)
+       (min-pixel-height-safe . 16)
+       (min-pixel-width-safe . 16))
+      leaf
+      (pixel-width . 1920)
+      (pixel-height . 1001)
+      (total-width . 240)
+      (total-height . 62)
+      (normal-height . 1.0)
+      (normal-width . 1.0)
+      (parameters
+       (better-jumper-struct . #s(better-jumper-jump-list-struct
+                                  (0 0 .
+                                     [nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil])
+                                  -1)))
+      (buffer "*doom*"
+              (selected . t)
+              (hscroll . 0)
+              (fringes 0 0 nil nil)
+              (margins 80)
+              (scroll-bars nil 0 t nil 0 t nil)
+              (vscroll . 0)
+              (dedicated)
+              (point . 1888)
+              (start . 1))
+      (prev-buffers
+       ("*Ibuffer*" 1 222)
+       ("packages.el" 1 2129)
+       ("*doom*" 1 1)
+       ("*anaconda-mode*" 1 1)
+       ("setup.org" 1 249)
+       ("note.org" 1 1)
+       ("test.py" 1 57)
+       ("config.el" 3378 3925)
+       ("custom.el" 1 700))))
+   (def-params nil)
+   nil nil nil)
+ (def-persp "#2"
+   ((def-buffer "note.org" "c:/Library/general/note.org" org-mode))
+   (def-wconf
+     (((min-height . 4)
+       (min-width . 82)
+       (min-height-ignore . 3)
+       (min-width-ignore . 82)
+       (min-height-safe . 1)
+       (min-width-safe . 2)
+       (min-pixel-height . 64)
+       (min-pixel-width . 656)
+       (min-pixel-height-ignore . 48)
+       (min-pixel-width-ignore . 656)
+       (min-pixel-height-safe . 16)
+       (min-pixel-width-safe . 16))
+      leaf
+      (pixel-width . 1920)
+      (pixel-height . 1001)
+      (total-width . 240)
+      (total-height . 63)
+      (normal-height . 1.0)
+      (normal-width . 1.0)
+      (parameters
+       (better-jumper-struct . #s(better-jumper-jump-list-struct
+                                  (0 0 .
+                                     [nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil])
+                                  -1)))
+      (buffer "*doom*"
+              (selected . t)
+              (hscroll . 0)
+              (fringes 0 0 nil nil)
+              (margins 80)
+              (scroll-bars nil 0 t nil 0 t nil)
+              (vscroll . 0)
+              (dedicated)
+              (point . 1544)
+              (start . 1))
+      (prev-buffers
+       ("*Ibuffer*" 1 228)
+       ("note.org" 1 2017)
+       ("*doom*" 1 1))))
+   (def-params
+     ((last-project-root)))
+   nil nil nil)
+ (def-persp "#1" nil
+   (def-wconf
+     (((min-height . 4)
+       (min-width . 10)
+       (min-height-ignore . 4)
+       (min-width-ignore . 4)
+       (min-height-safe . 1)
+       (min-width-safe . 2)
+       (min-pixel-height . 64)
+       (min-pixel-width . 80)
+       (min-pixel-height-ignore . 64)
+       (min-pixel-width-ignore . 32)
+       (min-pixel-height-safe . 16)
+       (min-pixel-width-safe . 16))
+      leaf
+      (pixel-width . 1920)
+      (pixel-height . 1001)
+      (total-width . 240)
+      (total-height . 62)
+      (normal-height . 1.0)
+      (normal-width . 1.0)
+      (parameters
+       (better-jumper-struct . #s(better-jumper-jump-list-struct
+                                  (0 0 .
+                                     [nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil])
+                                  -1)))
+      (buffer "note.org"
+              (selected . t)
+              (hscroll . 0)
+              (fringes 8 8 t nil)
+              (margins nil)
+              (scroll-bars nil 0 t nil 0 t nil)
+              (vscroll . 0)
+              (dedicated)
+              (point . 8788)
+              (start . 1))
+      (prev-buffers
+       ("note.org" 1 42769)
+       ("*doom*" 1 1552))))
+   (def-params
+     ((last-project-root)))
+   nil nil nil))
