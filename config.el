@@ -78,7 +78,7 @@
 (setq fancy-splash-image "~/.config/doom/background.png")
 (setq default-directory "~/")
 (setq org-src-preserve-indentation t)
-(setq explicit-shell-file-name "/usr/bin/zsh")
+(setq explicit-shell-file-name "/usr/bin/bash")
 
 (global-set-key (kbd "C-c t a") 'term)
 (global-set-key (kbd "C-c t s") 'eshell)
@@ -94,6 +94,21 @@
       (end-of-line)
       (insert "\n" text))))
 (global-set-key (kbd "C-c C-d") 'duplicate-line)
+
+(after! persp-mode
+  (setq persp-emacsclient-init-frame-behaviour-override "main"))
+
+(setq
+ python-shell-interpreter "ipython"
+ python-shell-interpreter-args "--colors=Linux --profile=default --simple-prompt"
+ python-shell-prompt-regexp "In \\[[0-9]+\\]: "
+ python-shell-prompt-output-regexp "Out\\[[0-9]+\\]: "
+ python-shell-completion-setup-code
+ "from IPython.core.completerlib import module_completion"
+ python-shell-completion-module-string-code
+ "';'.join(module_completion('''%s'''))\n"
+ python-shell-completion-string-code
+ "';'.join(get_ipython().Completer.all_completions('''%s'''))\n")
 
 (add-hook 'after-make-frame-functions  'toggle-frame-maximized t)
 (add-hook 'after-make-frame-functions  #'treemacs)
